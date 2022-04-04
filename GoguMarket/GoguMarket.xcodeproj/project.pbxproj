@@ -1,0 +1,609 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		D242834B27FAE46300B46BE0 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D242834A27FAE46300B46BE0 /* AppDelegate.swift */; };
+		D242834D27FAE46300B46BE0 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D242834C27FAE46300B46BE0 /* SceneDelegate.swift */; };
+		D242834F27FAE46300B46BE0 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D242834E27FAE46300B46BE0 /* ViewController.swift */; };
+		D242835227FAE46300B46BE0 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D242835027FAE46300B46BE0 /* Main.storyboard */; };
+		D242835427FAE46300B46BE0 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D242835327FAE46300B46BE0 /* Assets.xcassets */; };
+		D242835727FAE46300B46BE0 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D242835527FAE46300B46BE0 /* LaunchScreen.storyboard */; };
+		D242836227FAE46300B46BE0 /* GoguMarketTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D242836127FAE46300B46BE0 /* GoguMarketTests.swift */; };
+		D242836C27FAE46300B46BE0 /* GoguMarketUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D242836B27FAE46300B46BE0 /* GoguMarketUITests.swift */; };
+		D242836E27FAE46300B46BE0 /* GoguMarketUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D242836D27FAE46300B46BE0 /* GoguMarketUITestsLaunchTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		D242835E27FAE46300B46BE0 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D242833F27FAE46300B46BE0 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D242834627FAE46300B46BE0;
+			remoteInfo = GoguMarket;
+		};
+		D242836827FAE46300B46BE0 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D242833F27FAE46300B46BE0 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D242834627FAE46300B46BE0;
+			remoteInfo = GoguMarket;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		D242834727FAE46300B46BE0 /* GoguMarket.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GoguMarket.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		D242834A27FAE46300B46BE0 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		D242834C27FAE46300B46BE0 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		D242834E27FAE46300B46BE0 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		D242835127FAE46300B46BE0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		D242835327FAE46300B46BE0 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		D242835627FAE46300B46BE0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		D242835827FAE46300B46BE0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D242835D27FAE46300B46BE0 /* GoguMarketTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = GoguMarketTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		D242836127FAE46300B46BE0 /* GoguMarketTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GoguMarketTests.swift; sourceTree = "<group>"; };
+		D242836727FAE46300B46BE0 /* GoguMarketUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = GoguMarketUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		D242836B27FAE46300B46BE0 /* GoguMarketUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GoguMarketUITests.swift; sourceTree = "<group>"; };
+		D242836D27FAE46300B46BE0 /* GoguMarketUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GoguMarketUITestsLaunchTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		D242834427FAE46300B46BE0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D242835A27FAE46300B46BE0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D242836427FAE46300B46BE0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		D242833E27FAE46300B46BE0 = {
+			isa = PBXGroup;
+			children = (
+				D242834927FAE46300B46BE0 /* GoguMarket */,
+				D242836027FAE46300B46BE0 /* GoguMarketTests */,
+				D242836A27FAE46300B46BE0 /* GoguMarketUITests */,
+				D242834827FAE46300B46BE0 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		D242834827FAE46300B46BE0 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				D242834727FAE46300B46BE0 /* GoguMarket.app */,
+				D242835D27FAE46300B46BE0 /* GoguMarketTests.xctest */,
+				D242836727FAE46300B46BE0 /* GoguMarketUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		D242834927FAE46300B46BE0 /* GoguMarket */ = {
+			isa = PBXGroup;
+			children = (
+				D242834A27FAE46300B46BE0 /* AppDelegate.swift */,
+				D242834C27FAE46300B46BE0 /* SceneDelegate.swift */,
+				D242834E27FAE46300B46BE0 /* ViewController.swift */,
+				D242835027FAE46300B46BE0 /* Main.storyboard */,
+				D242835327FAE46300B46BE0 /* Assets.xcassets */,
+				D242835527FAE46300B46BE0 /* LaunchScreen.storyboard */,
+				D242835827FAE46300B46BE0 /* Info.plist */,
+			);
+			path = GoguMarket;
+			sourceTree = "<group>";
+		};
+		D242836027FAE46300B46BE0 /* GoguMarketTests */ = {
+			isa = PBXGroup;
+			children = (
+				D242836127FAE46300B46BE0 /* GoguMarketTests.swift */,
+			);
+			path = GoguMarketTests;
+			sourceTree = "<group>";
+		};
+		D242836A27FAE46300B46BE0 /* GoguMarketUITests */ = {
+			isa = PBXGroup;
+			children = (
+				D242836B27FAE46300B46BE0 /* GoguMarketUITests.swift */,
+				D242836D27FAE46300B46BE0 /* GoguMarketUITestsLaunchTests.swift */,
+			);
+			path = GoguMarketUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		D242834627FAE46300B46BE0 /* GoguMarket */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D242837127FAE46300B46BE0 /* Build configuration list for PBXNativeTarget "GoguMarket" */;
+			buildPhases = (
+				D242834327FAE46300B46BE0 /* Sources */,
+				D242834427FAE46300B46BE0 /* Frameworks */,
+				D242834527FAE46300B46BE0 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = GoguMarket;
+			productName = GoguMarket;
+			productReference = D242834727FAE46300B46BE0 /* GoguMarket.app */;
+			productType = "com.apple.product-type.application";
+		};
+		D242835C27FAE46300B46BE0 /* GoguMarketTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D242837427FAE46300B46BE0 /* Build configuration list for PBXNativeTarget "GoguMarketTests" */;
+			buildPhases = (
+				D242835927FAE46300B46BE0 /* Sources */,
+				D242835A27FAE46300B46BE0 /* Frameworks */,
+				D242835B27FAE46300B46BE0 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D242835F27FAE46300B46BE0 /* PBXTargetDependency */,
+			);
+			name = GoguMarketTests;
+			productName = GoguMarketTests;
+			productReference = D242835D27FAE46300B46BE0 /* GoguMarketTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		D242836627FAE46300B46BE0 /* GoguMarketUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D242837727FAE46300B46BE0 /* Build configuration list for PBXNativeTarget "GoguMarketUITests" */;
+			buildPhases = (
+				D242836327FAE46300B46BE0 /* Sources */,
+				D242836427FAE46300B46BE0 /* Frameworks */,
+				D242836527FAE46300B46BE0 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D242836927FAE46300B46BE0 /* PBXTargetDependency */,
+			);
+			name = GoguMarketUITests;
+			productName = GoguMarketUITests;
+			productReference = D242836727FAE46300B46BE0 /* GoguMarketUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D242833F27FAE46300B46BE0 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1320;
+				LastUpgradeCheck = 1320;
+				TargetAttributes = {
+					D242834627FAE46300B46BE0 = {
+						CreatedOnToolsVersion = 13.2.1;
+					};
+					D242835C27FAE46300B46BE0 = {
+						CreatedOnToolsVersion = 13.2.1;
+						TestTargetID = D242834627FAE46300B46BE0;
+					};
+					D242836627FAE46300B46BE0 = {
+						CreatedOnToolsVersion = 13.2.1;
+						TestTargetID = D242834627FAE46300B46BE0;
+					};
+				};
+			};
+			buildConfigurationList = D242834227FAE46300B46BE0 /* Build configuration list for PBXProject "GoguMarket" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = D242833E27FAE46300B46BE0;
+			productRefGroup = D242834827FAE46300B46BE0 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				D242834627FAE46300B46BE0 /* GoguMarket */,
+				D242835C27FAE46300B46BE0 /* GoguMarketTests */,
+				D242836627FAE46300B46BE0 /* GoguMarketUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		D242834527FAE46300B46BE0 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D242835727FAE46300B46BE0 /* LaunchScreen.storyboard in Resources */,
+				D242835427FAE46300B46BE0 /* Assets.xcassets in Resources */,
+				D242835227FAE46300B46BE0 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D242835B27FAE46300B46BE0 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D242836527FAE46300B46BE0 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		D242834327FAE46300B46BE0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D242834F27FAE46300B46BE0 /* ViewController.swift in Sources */,
+				D242834B27FAE46300B46BE0 /* AppDelegate.swift in Sources */,
+				D242834D27FAE46300B46BE0 /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D242835927FAE46300B46BE0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D242836227FAE46300B46BE0 /* GoguMarketTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D242836327FAE46300B46BE0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D242836E27FAE46300B46BE0 /* GoguMarketUITestsLaunchTests.swift in Sources */,
+				D242836C27FAE46300B46BE0 /* GoguMarketUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		D242835F27FAE46300B46BE0 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = D242834627FAE46300B46BE0 /* GoguMarket */;
+			targetProxy = D242835E27FAE46300B46BE0 /* PBXContainerItemProxy */;
+		};
+		D242836927FAE46300B46BE0 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = D242834627FAE46300B46BE0 /* GoguMarket */;
+			targetProxy = D242836827FAE46300B46BE0 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		D242835027FAE46300B46BE0 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D242835127FAE46300B46BE0 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		D242835527FAE46300B46BE0 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D242835627FAE46300B46BE0 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		D242836F27FAE46300B46BE0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		D242837027FAE46300B46BE0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		D242837227FAE46300B46BE0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = L2HU44QQL5;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = GoguMarket/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.sg.GoguMarket.GoguMarket;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		D242837327FAE46300B46BE0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = L2HU44QQL5;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = GoguMarket/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.sg.GoguMarket.GoguMarket;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		D242837527FAE46300B46BE0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = L2HU44QQL5;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.sg.GoguMarket.GoguMarketTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/GoguMarket.app/GoguMarket";
+			};
+			name = Debug;
+		};
+		D242837627FAE46300B46BE0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = L2HU44QQL5;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.sg.GoguMarket.GoguMarketTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/GoguMarket.app/GoguMarket";
+			};
+			name = Release;
+		};
+		D242837827FAE46300B46BE0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = L2HU44QQL5;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.sg.GoguMarket.GoguMarketUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = GoguMarket;
+			};
+			name = Debug;
+		};
+		D242837927FAE46300B46BE0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = L2HU44QQL5;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.sg.GoguMarket.GoguMarketUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = GoguMarket;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		D242834227FAE46300B46BE0 /* Build configuration list for PBXProject "GoguMarket" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D242836F27FAE46300B46BE0 /* Debug */,
+				D242837027FAE46300B46BE0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D242837127FAE46300B46BE0 /* Build configuration list for PBXNativeTarget "GoguMarket" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D242837227FAE46300B46BE0 /* Debug */,
+				D242837327FAE46300B46BE0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D242837427FAE46300B46BE0 /* Build configuration list for PBXNativeTarget "GoguMarketTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D242837527FAE46300B46BE0 /* Debug */,
+				D242837627FAE46300B46BE0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D242837727FAE46300B46BE0 /* Build configuration list for PBXNativeTarget "GoguMarketUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D242837827FAE46300B46BE0 /* Debug */,
+				D242837927FAE46300B46BE0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D242833F27FAE46300B46BE0 /* Project object */;
+}
