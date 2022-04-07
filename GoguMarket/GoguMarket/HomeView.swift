@@ -19,6 +19,18 @@ struct HomeView: View {
                 mainScrollView
                 Spacer()
             }
+            
+            
+            Button(action: {print("Button")}) {
+               Image("plusButton")
+                    .resizable()
+                    .frame(width: 80, height: 80)
+                    .shadow(radius: 3.0)
+            }
+            .offset(x: 150, y: 300)
+            
+            
+            
         }
         .navigationTitle("")
         .navigationBarHidden(true)
@@ -35,18 +47,21 @@ extension HomeView {
             HStack {
                 Text("역삼동")
                     .bold()
+                Image(systemName: "chevron.down")
                 Spacer()
             }
             HStack {
                 Spacer()
-                Image("weggleLogo")
-                    .resizable()
-                    .frame(width: device.widthScale(80), height: device.heightScale(24))
+                //                Image("weggleLogo")
+                //                    .resizable()
+                //                    .frame(width: device.widthScale(80), height: device.heightScale(24))
                 Spacer()
             }
-            HStack {
+            HStack(spacing: 10) {
                 Spacer()
-                Image("bell")
+                Image(systemName: "magnifyingglass")
+                Image(systemName: "text.justify")
+                Image(systemName: "bell")
             }
         }.frame(width: device.widthScale(335),height: device.heightScale(40))
     }
@@ -62,13 +77,13 @@ extension HomeView {
                             Image("test")
                                 .resizable()
                                 .frame(width: device.screenWidth/3 - 10, height: device.screenWidth/3 - 10)
-                                .cornerRadius(5)
+                                .cornerRadius(10)
                             
                             HStack {
                                 
                                 VStack(alignment: .leading, spacing: 5){
                                     
-                                    Text("\(index)번 상품")
+                                    Text("\(index)번 에어팟 프로")
                                         .font(.system(size: 16, weight: .regular))
                                     
                                     Text("강남구 역삼동 ・ 1일전")
