@@ -22,6 +22,7 @@
 		D242838527FAE5A800B46BE0 /* MyPageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D242838427FAE5A800B46BE0 /* MyPageView.swift */; };
 		D242838827FAE5CE00B46BE0 /* Constant.swift in Sources */ = {isa = PBXBuildFile; fileRef = D242838727FAE5CE00B46BE0 /* Constant.swift */; };
 		D242838A27FAE5D600B46BE0 /* Extension+View.swift in Sources */ = {isa = PBXBuildFile; fileRef = D242838927FAE5D600B46BE0 /* Extension+View.swift */; };
+		D242838C27FAE7C600B46BE0 /* MainView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D242838B27FAE7C600B46BE0 /* MainView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -61,6 +62,7 @@
 		D242838427FAE5A800B46BE0 /* MyPageView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyPageView.swift; sourceTree = "<group>"; };
 		D242838727FAE5CE00B46BE0 /* Constant.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Constant.swift; sourceTree = "<group>"; };
 		D242838927FAE5D600B46BE0 /* Extension+View.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Extension+View.swift"; sourceTree = "<group>"; };
+		D242838B27FAE7C600B46BE0 /* MainView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -115,6 +117,7 @@
 				D242834A27FAE46300B46BE0 /* AppDelegate.swift */,
 				D242834C27FAE46300B46BE0 /* SceneDelegate.swift */,
 				D242837A27FAE50000B46BE0 /* ContentView.swift */,
+				D242838B27FAE7C600B46BE0 /* MainView.swift */,
 				D242837C27FAE51E00B46BE0 /* HomeView.swift */,
 				D242838027FAE56D00B46BE0 /* LifeView.swift */,
 				D242838227FAE58D00B46BE0 /* ChatView.swift */,
@@ -290,6 +293,7 @@
 				D242834F27FAE46300B46BE0 /* ViewController.swift in Sources */,
 				D242834B27FAE46300B46BE0 /* AppDelegate.swift in Sources */,
 				D242837B27FAE50000B46BE0 /* ContentView.swift in Sources */,
+				D242838C27FAE7C600B46BE0 /* MainView.swift in Sources */,
 				D242838327FAE58D00B46BE0 /* ChatView.swift in Sources */,
 				D242837D27FAE51E00B46BE0 /* HomeView.swift in Sources */,
 				D242834D27FAE46300B46BE0 /* SceneDelegate.swift in Sources */,
